@@ -64,7 +64,7 @@
              </div>
             </div>
               
-<div class="col-md-12">
+<div class="<?php echo (($size)?($size):'col-md-12'); ?>"> 
 <div class="panel panel-info">
 	<div class="panel-heading">
 		<div class="panel-title">
@@ -80,7 +80,8 @@
     <div class="col-md-5">
     <select name="pid" id="input" class="form-control" >
      <?php if(empty($datadetail)): ?><option value="0" selected>--请选择--</option><?php endif; ?>
-     <?php if(is_array($selectlist)): $i = 0; $__LIST__ = $selectlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><option value="<?php echo ($v["id"]); ?>" <?php if(($v["id"]) == $datadetail['pid']): ?>selected<?php endif; ?>><?php echo ($v["title"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+     <?php if(($datadetail['pid']) == "0"): ?><option value="0" name='pid' selected>顶级</option><?php endif; ?>
+     <?php if(is_array($selectlist)): $i = 0; $__LIST__ = $selectlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><option value="<?php echo ($v["id"]); ?>" <?php if(($v["id"]) == $datadetail['pid']): ?>selected<?php endif; ?>><?php if(($v["pid"]) == "0"): ?>--<?php echo ($v['title']); ?>--<?php else: echo ($v['title']); endif; ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
     </select>
     </div>
     </div>
@@ -89,7 +90,7 @@
   		<label >菜单名</label>
   	</div>
   	<div class="col-md-5">
-  		
+  	<input type="hidden" name="id" value="<?php echo ($datadetail['id']); ?>">	
   	<input type="text" class="form-control" value="<?php echo ($datadetail['title']); ?>" name="title" >
      
   	</div>
@@ -120,7 +121,7 @@
   	<div class="col-md-5">
   	<!-- <div class="switch switch-large"> -->
         <!-- <input type="checkbox" value="1" checked class="js-check" name="status" /> -->
-        <input type="checkbox" class="js-check" checked >
+        <input type="checkbox" class="js-check" <?php if(($datadetail['status']) == "1"): ?>checked<?php endif; ?> >
         <input type="hidden" value='1' name="status" >
     <!--   </div> -->
   	<!-- <input type="text" class="form-control" name="status"> -->
@@ -183,7 +184,7 @@ var rule={
   
  };
 _validade({rules:rule,messages:message,class:'help-block'});
-SwitchStatus('.js-check');
+_SwitchStatus('.js-check');
 
 }); 
 

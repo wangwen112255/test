@@ -120,7 +120,7 @@
      })
     }
     //状态改变
-  function SwitchStatus(jscheck){
+  function _SwitchStatus(jscheck){
 
     var switches=$(jscheck);
     for(var i=0;i<switches.length;i++){
@@ -139,4 +139,48 @@
     }
   
     } 
+    //改变状态
+        function _setStatus(id,url){
+        layer.confirm("您确定要修改状态吗？",{'btn':['确定','取消']},function(index){
+              _ajax({
+                'url':url,
+                'data':{'id':id},
+                success:function(data){
+                  if(data.code===200){
+                    layer.msg(data.msg,{icon:1,time:700});
+                    $("#status"+id).html(data.data);
+                     var c=$("#status"+id).attr("class");
+                     c=(c=='btn btn-default')?"btn btn-info":"btn btn-default";
+                    $("#status"+id).attr("class",c);
+                  }
+                  else{
+                    layer.alert(data.msg,{icon:5});
+                  }
+                }
 
+            });
+              layer.close(index);
+        })
+
+        }
+        //
+         function _del(id,url){
+        layer.confirm("您确定要删除吗？",{'btn':['确定','取消']},function(index){
+              _ajax({
+                'url':url,
+                'data':{'id':id},
+                success:function(data){
+                  if(data.code===200){
+                    layer.msg(data.msg,{icon:1,time:700});
+                    $("#del"+id).parent().parent().remove();
+                  }
+                  else{
+                   layer.alert(data.msg,{icon:5});
+                  }
+                }
+
+            });
+              layer.close(index);
+        })
+
+        }

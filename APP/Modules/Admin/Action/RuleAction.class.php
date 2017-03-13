@@ -9,7 +9,7 @@ class RuleAction extends BaseAction{
 	public function index(){
 	 	$data=$this->dao->where()->limit()->select();
 	 	$this->assign("datalist",$data);
-	 	$status=["不显示","显示"];
+	 	$status=["隐藏","显示"];
 	 	$this->assign("status",$status);
 	    $this->display(); 
 	 }
@@ -30,9 +30,9 @@ class RuleAction extends BaseAction{
 	if($this->dao->create()){
 		if($_POST['id']){
            if($this->dao->save())
-           $this->ajaxReturn(toJson(true,'修改失败'));
+           $this->ajaxReturn(toJson(true,'修改成功'));
            else
-           	$this->dao->ajaxReturn(toJson('修改失败'));
+           	$this->dao->ajaxReturn(toJson('修改失败或未修改'));
 		}
 		else{ 
 		if($this->dao->add())

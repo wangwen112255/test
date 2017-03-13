@@ -9,7 +9,7 @@
 
 </block>
 <block name="content">
-<div class="col-md-12">
+<div class="{$size|default='col-md-12'}"> 
 <div class="panel panel-info">
 	<div class="panel-heading">
 		<div class="panel-title">
@@ -25,8 +25,9 @@
     <div class="col-md-5">
     <select name="pid" id="input" class="form-control" >
      <empty name="datadetail"><option value="0" selected>--请选择--</option></empty>
+     <eq name="datadetail['pid']" value='0'><option value="0" name='pid' selected>顶级</option></eq>
      <volist   name="selectlist" id="v">
-        <option value="{$v.id}" <eq name='v.id' value="$datadetail['pid']"> selected</eq>>{$v.title}</option>
+        <option value="{$v.id}" <eq name='v.id' value="$datadetail['pid']"> selected</eq>><eq name='v.pid' value='0'>--{$v['title']}--<else/>{$v['title']}</eq></option>
       </volist>
     </select>
     </div>
@@ -36,7 +37,7 @@
   		<label >菜单名</label>
   	</div>
   	<div class="col-md-5">
-  		
+  	<input type="hidden" name="id" value="{$datadetail['id']}">	
   	<input type="text" class="form-control" value="{$datadetail['title']}" name="title" >
      
   	</div>
@@ -67,7 +68,7 @@
   	<div class="col-md-5">
   	<!-- <div class="switch switch-large"> -->
         <!-- <input type="checkbox" value="1" checked class="js-check" name="status" /> -->
-        <input type="checkbox" class="js-check" checked >
+        <input type="checkbox" class="js-check" <eq name="datadetail['status']" value="1">checked</eq> >
         <input type="hidden" value='1' name="status" >
     <!--   </div> -->
   	<!-- <input type="text" class="form-control" name="status"> -->
@@ -122,7 +123,7 @@ var rule={
   
  };
 _validade({rules:rule,messages:message,class:'help-block'});
-SwitchStatus('.js-check');
+_SwitchStatus('.js-check');
 
 }); 
 

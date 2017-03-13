@@ -71,7 +71,7 @@
              </div>
             </div>
               
-<div class="col-md-12">	
+<div class="<?php echo (($size)?($size):'col-md-12'); ?>">	
 <table data-toggle="table"   data-click-to-select="true" data-mobile-responsive="true">
         <thead>
             <tr>
@@ -85,20 +85,20 @@
             </tr>
         </thead>
         <tbody>
-        <?php if(is_array($datalist)): $i = 0; $__LIST__ = $datalist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr>
+        <?php if(is_array($datalist)): $i = 0; $__LIST__ = $datalist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr >
         		<td>数据</td>
         		<td><?php if(($v['pid']) != "0"): ?>***<?php endif; echo ($v['title']); ?></td>
         		<td><?php echo ($v['name']); ?></td>
         		<td><span class="<?php echo ($v['icon']); ?>"></span></td>
                 <td>
-                <button type="button" class="btn <?php if(($v["status"]) == "1"): ?>btn-info<?php else: ?>btn-default<?php endif; ?>">
+                <button type="button" id="status<?php echo ($v["id"]); ?>" onclick="_setStatus(<?php echo ($v["id"]); ?>,'<?php echo U('setStatus');?>')" class="btn <?php if(($v["status"]) == "1"): ?>btn-info<?php else: ?>btn-default<?php endif; ?>">
                    <?php echo ($status[$v["status"]]); ?>
                 </button>
                 </td>
-                <td><input  class="form-control"  maxlength="2" value="<?php echo ($v['order']); ?>" style="width:45px;margin: auto" type="order" name=""></td>
+                <td><input  class="form-control"  maxlength="2" value="<?php echo ($v['order']); ?>" style="width:41px;margin: auto" type="order" name=""></td>
                 <td>
-                <button type="button" onclick="_openLayerUrl('<?php echo U('create',array('id'=>$v['id']));?>','编辑','75%','70%')" class="btn btn-info"><span class="fa fa-edit"></span ><span >编辑</span></button>
-                <button type="button" class="btn btn-warning"><span class="fa fa-trash"></span>删除</button>
+                <button type="button" id='status<?php echo ($v["id"]); ?>' onclick="_openLayerUrl('<?php echo U('create',array('id'=>$v['id']));?>','编辑','100%','70%')" class="btn btn-info"><span class="fa fa-edit"></span ><span >编辑</span></button>
+                <button type="button" class="btn btn-warning"  id="del<?php echo ($v["id"]); ?>" onclick="_del(<?php echo ($v["id"]); ?>,'<?php echo U('del');?>')" ><span class="fa fa-trash"></span>删除</button>
 
                 </td>
     	   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -109,9 +109,7 @@
         </tbody>
     </table>
 </div>
-<div class="col-md-12">
-    <button type="button"  id="tan" class="btn btn-danger">弹差U给你</button>
-</div>
+
 	
 
             </div>
@@ -122,6 +120,12 @@
     <script src="/STATIC/js/bootstrap.min.js?v=3.3.6"></script>
     <script src="/STATIC/js/content.min.js?v=1.0.0"></script>
     
+    <script type="text/javascript">
+
+
+
+    </script>
+
     <script src="/STATIC/js/plugins/layer/layer.js"></script>
     <script src="/STATIC/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
     <script src="/STATIC/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>

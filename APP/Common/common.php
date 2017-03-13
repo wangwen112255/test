@@ -39,9 +39,9 @@ function getUser(){
 	redirect("/admin/Login/dologin");
 	}
 }
-function toJson($res,$msg){
+function toJson($res,$msg,$data){
 if($res===true){
-	return array('code'=>200,'msg'=>isset($msg)?$msg:'操作成功');
+	return array('code'=>200,'msg'=>isset($msg)?$msg:'操作成功','data'=>$data);
 	exit;
 }
 else{
