@@ -1,0 +1,56 @@
+<extend	 name="Public:layout" />
+<block name="css">
+    <style type="text/css">
+        
+        table>tr,th,td{
+            text-align: center;
+        }
+    </style>
+</block>
+<block name="content">
+<div class="col-md-12">	
+<table data-toggle="table"   data-click-to-select="true" data-mobile-responsive="true">
+        <thead>
+            <tr>
+                <th data-field="id" data-checkbox="true">编号</th>
+                <th data-field="name">名称</th>
+                <th data-field="tile">链接地址</th>
+                <th data-field="icon">图标</th>
+                <th data-field="status">状态</th>
+                <th data-field="order">排序</th>  
+                <th data-field="">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        <volist name="datalist" id="v">
+        	<tr>
+        		<td>数据</td>
+        		<td><neq name="v['pid']" value="0">***</neq>{$v['title']}</td>
+        		<td>{$v['name']}</td>
+        		<td><span class="{$v['icon']}"></span></td>
+                <td>
+                <button type="button" class="btn <eq name='v.status' value='1'>btn-info<else/>btn-default</eq>">
+                   {$status[$v["status"]]}
+                </button>
+                </td>
+                <td><input  class="form-control"  maxlength="2" value="{$v['order']}" style="width:45px;margin: auto" type="order" name=""></td>
+                <td>
+                <button type="button" onclick="_openLayerUrl('{:U('create',array('id'=>$v['id']))}','编辑','75%','70%')" class="btn btn-info"><span class="fa fa-edit"></span ><span >编辑</span></button>
+                <button type="button" class="btn btn-warning"><span class="fa fa-trash"></span>删除</button>
+
+                </td>
+    	   </tr>
+        </volist>
+
+          
+
+        	
+        </tbody>
+    </table>
+</div>
+<div class="col-md-12">
+    <button type="button"  id="tan" class="btn btn-danger">弹差U给你</button>
+</div>
+	
+</block>
+<block name="js"></block>

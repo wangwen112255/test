@@ -1,0 +1,180 @@
+[ 2017-03-06T00:02:06+08:00 ] 127.0.0.1 /
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 模板不存在[../APP/Modules/Home/Tpl/mimi/D/\phpStudy2016\WWW\tp3.1\tp\ThinkPHP/Tpl/error.html.html]
+
+[ 2017-03-06T00:03:38+08:00 ] 127.0.0.1 /
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 模板不存在[../APP/Modules/Home/Tpl/mimi/D/\phpStudy2016\WWW\tp3.1\tp\ThinkPHP/Tpl/error.html.html]
+
+[ 2017-03-06T00:05:43+08:00 ] 127.0.0.1 /admin/admin/index.shtml
+ERR: 无法加载模块:Admin
+
+[ 2017-03-06T00:19:11+08:00 ] 127.0.0.1 /admin/admin/index.shtml
+ERR: 无法加载模块:Admin
+
+[ 2017-03-06T00:19:19+08:00 ] 127.0.0.1 /admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T02:01:26+08:00 ] 127.0.0.1 /statics/js/plugins/layer/layer.js
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T02:03:08+08:00 ] 127.0.0.1 /statics/js/plugins/layer/layer.js
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T02:21:33+08:00 ] 127.0.0.1 /admin/index/admin.shtml
+ERR: 非法操作:admin
+
+[ 2017-03-06T02:21:50+08:00 ] 127.0.0.1 /admin/index/admin.shtml
+ERR: 非法操作:admin
+
+[ 2017-03-06T02:33:49+08:00 ] 127.0.0.1 /admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T02:49:36+08:00 ] 127.0.0.1 /statics/js/plugins/layer/skin/default/layer.css?v=3.0117
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T02:49:45+08:00 ] 127.0.0.1 /statics/js/plugins/layer/skin/default/layer.css?v=3.0117
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T02:50:27+08:00 ] 127.0.0.1 /statics/js/plugins/layer/skin/default/layer.css?v=3.0117
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T09:30:30+08:00 ] 127.0.0.1 /index.php/admin/admin/index.shtml
+ERR: 无法加载模块:Admin
+
+[ 2017-03-06T09:41:06+08:00 ] 127.0.0.1 /index.php/admin/group/index.shtml
+ERR: 无法加载模块:Group
+
+[ 2017-03-06T09:53:07+08:00 ] 127.0.0.1 /index.php/admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T09:53:22+08:00 ] 127.0.0.1 /notifications.html
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:Notifications.html
+
+[ 2017-03-06T09:53:25+08:00 ] 127.0.0.1 /
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 模板不存在[../APP/Modules/Home/Tpl/mimi/D/\phpStudy\WWW\tp3.1\tp\ThinkPHP/Tpl/error.html.html]
+
+[ 2017-03-06T09:53:50+08:00 ] 127.0.0.1 /index.php/admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T09:53:53+08:00 ] 127.0.0.1 /index.php/admin/links/index.shtml
+ERR: 无法加载模块:Links
+
+[ 2017-03-06T10:21:58+08:00 ] 127.0.0.1 /index.php/admin/group/index.shtml
+ERR: 无法加载模块:Group
+
+[ 2017-03-06T10:22:00+08:00 ] 127.0.0.1 /index.php/admin/admin/index.shtml
+ERR: 无法加载模块:Admin
+
+[ 2017-03-06T10:22:01+08:00 ] 127.0.0.1 /index.php/admin/configure/index.shtml
+ERR: 无法加载模块:Configure
+
+[ 2017-03-06T10:22:07+08:00 ] 127.0.0.1 /index.php/admin/links/index.shtml
+ERR: 无法加载模块:Links
+
+[ 2017-03-06T10:22:09+08:00 ] 127.0.0.1 /index.php/admin/refund/index.shtml
+ERR: 无法加载模块:Refund
+
+[ 2017-03-06T10:22:18+08:00 ] 127.0.0.1 /index.php/admin/comment/index.shtml
+ERR: 无法加载模块:Comment
+
+[ 2017-03-06T10:22:22+08:00 ] 127.0.0.1 /index.php/admin/comment/index.shtml
+ERR: 无法加载模块:Comment
+
+[ 2017-03-06T10:22:28+08:00 ] 127.0.0.1 /index.php/admin/comment/index.shtml
+ERR: 无法加载模块:Comment
+
+[ 2017-03-06T11:06:08+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T11:09:21+08:00 ] 127.0.0.1 /index.php/admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T11:12:51+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-06T11:17:28+08:00 ] 127.0.0.1 /index.php/admin/admin/index.shtml
+ERR: 无法加载模块:Admin
+
+[ 2017-03-06T13:26:05+08:00 ] 127.0.0.1 /index.php/admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T14:08:46+08:00 ] 127.0.0.1 /index.php/admin/network/index.shtml
+ERR: 无法加载模块:Network
+
+[ 2017-03-06T14:08:47+08:00 ] 127.0.0.1 /index.php/admin/links/index.shtml
+ERR: 无法加载模块:Links
+
+[ 2017-03-06T15:14:07+08:00 ] 127.0.0.1 /index.php/admin/group/index.shtml
+ERR: 无法加载模块:Group
+
+[ 2017-03-06T15:14:08+08:00 ] 127.0.0.1 /index.php/admin/configure/index.shtml
+ERR: 无法加载模块:Configure
+
+[ 2017-03-06T15:14:09+08:00 ] 127.0.0.1 /index.php/admin/admin/index.shtml
+ERR: 无法加载模块:Admin
+
+[ 2017-03-06T15:21:23+08:00 ] 127.0.0.1 /index.php/admin/rule/ming.html
+ERR: 非法操作:ming.html
+
+[ 2017-03-06T15:21:30+08:00 ] 127.0.0.1 /index.php/admin/rule/index.html?v=4.0
+ERR: 非法操作:index.html
+
+[ 2017-03-06T15:59:45+08:00 ] 127.0.0.1 /index.php/admin/rule/index.html?v=4.0
+ERR: 非法操作:index.html
+
+[ 2017-03-06T16:39:38+08:00 ] 127.0.0.1 /index.php/admin/rule/js/demo/bootstrap_table_test.json?order=asc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-03-06T16:40:15+08:00 ] 127.0.0.1 /index.php/admin/rule/js/demo/bootstrap_table_test.json?order=asc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+

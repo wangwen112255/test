@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>这是第一个</title>
+</head>
+<body>
+<form action="{:U('adduser')}" method="post">
+<p>`另外一个主任提</p>	
+
+<input id="names" type="" name="names">
+<p>密码</p>	
+<input type="text" name="passwords">
+<input type="submit" class="subs" value="submit">
+</form>	
+
+<script type="text/javascript">
+var name=document.getElementById("names");
+var su=document.getElementsByClassName("subs");
+// alert(su[0]);
+var formuser=document.getElementsByTagName("form");
+formuser[0].onsubmit=function(){
+	if(name.length<1){
+	alert("长度不够")
+	return false;
+}
+return true;
+
+};
+
+// if(name.length<10){
+	
+// }
+
+// su[0].onclick=function(){
+// // alert('hello world');
+// var formuser=document.getElementsByTagName("form");
+// var name=document.getElementById("names");
+// alert(name.value);
+// // alert(formuser[0])
+
+// // formuser[0].submit();
+// formuser[0].onsubmit()=function(){
+// 	return false;
+// }
+// 	return true;
+// };
+// / console.log(asd)
+// };
+</script>
+</body>
+</html>

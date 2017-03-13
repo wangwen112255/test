@@ -1,0 +1,193 @@
+[ 2017-03-05T00:00:58+08:00 ] ERR: (ThinkException) 无法加载模块:Order
+[ 2017-03-05T00:03:34+08:00 ] ERR: (ThinkException) 无法加载模块:Order
+[ 2017-03-05T02:04:56+08:00 ] ERR: (ThinkException) 无法加载模块:Network
+[ 2017-03-05T02:04:58+08:00 ] ERR: (ThinkException) 无法加载模块:Links
+[ 2017-03-05T20:59:46+08:00 ] ERR: (ThinkException) 无法加载模块:Network
+[ 2017-03-05T20:59:47+08:00 ] ERR: (ThinkException) 无法加载模块:Links
+[ 2017-03-05T21:24:35+08:00 ] ERR: (ThinkException) 无法加载模块:Network
+[ 2017-03-05T21:24:36+08:00 ] ERR: (ThinkException) 无法加载模块:Links
+[ 2017-03-05T21:25:43+08:00 ] ERR: (ThinkException) 无法加载模块:AuthRule
+[ 2017-03-05T21:25:54+08:00 ] ERR: (ThinkException) 无法加载模块:Group
+[ 2017-03-05T21:25:54+08:00 ] ERR: (ThinkException) 无法加载模块:Configure
+[ 2017-03-05T21:25:58+08:00 ] ERR: (ThinkException) 无法加载模块:Comment
+[ 2017-03-05T21:25:59+08:00 ] ERR: (ThinkException) 无法加载模块:Refund
+[ 2017-03-05T21:25:59+08:00 ] ERR: (ThinkException) 无法加载模块:Order
+[ 2017-03-05T21:47:09+08:00 ] ERR: (ThinkException) 非法操作:ming
+[ 2017-03-05T22:37:41+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:37:45+08:00 ] 127.0.0.1 /index.php/group/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Group
+
+[ 2017-03-05T22:38:04+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:38:34+08:00 ] 127.0.0.1 /index.php/index.php
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:Index.php
+
+[ 2017-03-05T22:42:57+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:43:04+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:48:47+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:52:31+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:53:40+08:00 ] 127.0.0.1 /index.php/authRule/index
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:AuthRule
+
+[ 2017-03-05T22:53:44+08:00 ] 127.0.0.1 /index.php
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 模板不存在[../APP/Modules/Home/Tpl/mimi/D/\phpStudy2016\WWW\tp3.1\tp\ThinkPHP/Tpl/error.html.html]
+
+[ 2017-03-05T22:53:57+08:00 ] 127.0.0.1 /index.php
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 模板不存在[../APP/Modules/Home/Tpl/mimi/D/\phpStudy2016\WWW\tp3.1\tp\ThinkPHP/Tpl/error.html.html]
+
+[ 2017-03-05T22:54:02+08:00 ] 127.0.0.1 /index.php
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy2016\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 模板不存在[../APP/Modules/Home/Tpl/mimi/D/\phpStudy2016\WWW\tp3.1\tp\ThinkPHP/Tpl/error.html.html]
+
+[ 2017-03-05T23:17:10+08:00 ] 127.0.0.1 /index.php/admin/public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:17:17+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:02+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:04+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:18+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:19+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:19+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:19+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:19:57+08:00 ] 127.0.0.1 /index.php/admin/Public/layout.hrml
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:20:01+08:00 ] 127.0.0.1 /index.php/admin/Public/layout
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:20:06+08:00 ] 127.0.0.1 /index.php/admin/Public/
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:20:09+08:00 ] 127.0.0.1 /index.php/admin/Public
+ERR: 无法加载模块:Public
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/js/bootstrap.min.js?v=3.3.6
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/js/jquery.min.js?v=2.1.4
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/statics/css/bootstrap.min14ed.css?v=3.3.6
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/statics/css/font-awesome.min93e3.css?v=4.4.0
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/statics/css/style.min862f.css?v=4.1.0
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/js/content.min.js?v=1.0.0
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:20:56+08:00 ] 127.0.0.1 /index.php/admin/statics/css/animate.min.css
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/statics/css/font-awesome.min93e3.css?v=4.4.0
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/statics/css/style.min862f.css?v=4.1.0
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/js/bootstrap.min.js?v=3.3.6
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/js/jquery.min.js?v=2.1.4
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/statics/css/bootstrap.min14ed.css?v=3.3.6
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/js/content.min.js?v=1.0.0
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:21:37+08:00 ] 127.0.0.1 /index.php/admin/statics/css/animate.min.css
+ERR: 无法加载模块:Statics
+
+[ 2017-03-05T23:23:13+08:00 ] 127.0.0.1 /index.php/admin/js/jquery.min.js?v=2.1.4
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:23:13+08:00 ] 127.0.0.1 /index.php/admin/js/bootstrap.min.js?v=3.3.6
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:23:13+08:00 ] 127.0.0.1 /index.php/admin/js/content.min.js?v=1.0.0
+ERR: 无法加载模块:Js
+
+[ 2017-03-05T23:34:42+08:00 ] 127.0.0.1 /index.php/admin/S/js/content.min.js?v=1.0.0
+ERR: 无法加载模块:S
+
+[ 2017-03-05T23:35:56+08:00 ] 127.0.0.1 /index.php/admin/S/js/content.min.js?v=1.0.0
+ERR: 无法加载模块:S
+
