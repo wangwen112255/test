@@ -7,9 +7,20 @@ class RuleAction extends BaseAction{
     	
     }
 	public function index(){
-	 	$data=$this->dao->where()->limit()->select();
+		import("ORG.Util.Page");
+
+	 	// $data=$this->dao->where()->page(isset($_GET['p'])?$_GET['p']:1,10)->select();
+
+	 	$count=$this->dao->count();
+	 	$page=new Page($count,10);
+	 	$show=$page->show();
+	 	$page->setConfig('header','个会员');
+	 	$data=$this->dao->where()->limit($page->firstRow.','.$page->listRows)->select();
+
+	 	$this->assign('page',$show);
 	 	$this->assign("datalist",$data);
 	 	$status=["隐藏","显示"];
+
 	 	$this->assign("status",$status);
 	    $this->display(); 
 	 }

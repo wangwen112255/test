@@ -741,3 +741,315 @@ SQL: UPDATE `think_rule` SET `pid`=0,`title`='系统置sd',`name`='admin',`icon`
 NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy2016\WWW\tp3.1\APP\Modules\Admin\Action\RuleAction.class.php on line 33 and defined D:\phpStudy2016\WWW\tp3.1\APP\Common\common.php 第 42 行.
 NOTIC: [8] Undefined variable: data D:\phpStudy2016\WWW\tp3.1\APP\Common\common.php 第 44 行.
 
+[ 2017-03-14T14:27:37+08:00 ] 127.0.0.1 /index.php/admin/rule/setStatus.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.010000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.359002s ]
+SQL: UPDATE `think_rule` SET `status`=0 WHERE ( id=48 ) [ RunTime:0.030000s ]
+
+[ 2017-03-14T14:27:42+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.010000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=54 ) [ RunTime:0.050001s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:27:46+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.034001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 53 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=53 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:36:58+08:00 ] 127.0.0.1 /index.php/admin/rule/index.shtml
+ERR: Action:dao您所请求的方法不存在！
+
+[ 2017-03-14T14:46:19+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.030000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 29 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=29 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:26+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.010000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.010000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=28 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:30+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.014000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=27 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:33+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.012001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 26 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=26 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:37+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.010000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=25 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:41+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.012001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=24 ) [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:44+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.020000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=23 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:46:50+08:00 ] 127.0.0.1 /index.php/admin/index/ds.shtml
+ERR: 非法操作:ds
+
+[ 2017-03-14T14:51:32+08:00 ] 127.0.0.1 /index.php/admin/rule/setStatus.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.020000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `think_rule` SET `status`=0 WHERE ( id=44 ) [ RunTime:0.000000s ]
+
+[ 2017-03-14T14:51:37+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.034000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=51 ) [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T14:51:46+08:00 ] 127.0.0.1 /index.php/admin/rule/del.shtml
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_rule` [ RunTime:0.010000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_rule` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `think_rule` WHERE ( id=50 ) [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for toJson(), called in D:\phpStudy\WWW\tp3.1\APP\Modules\Admin\Action\BaseAction.class.php on line 42 and defined D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tp3.1\APP\Common\common.php 第 44 行.
+
+[ 2017-03-14T15:46:08+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:46:21+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:48:13+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:48:45+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:49:10+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:49:13+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:49:18+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:51:09+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:51:12+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:52:40+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:55:24+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:55:28+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:55:46+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:55:59+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:58:22+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T15:58:25+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T16:07:45+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T16:07:48+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T16:08:34+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T16:08:36+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T16:08:55+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+
+[ 2017-03-14T16:08:57+08:00 ] 127.0.0.1 /statics/css/bootstrap.min.css.map
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\phpStudy\WWW\tp3.1\tp\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Statics
+

@@ -53,7 +53,7 @@
             <div class="col-sm-2 pull-left">
             <div class="btn-group">
                 <button type="button" class="btn  btn-outline btn-default" title="增加" onclick="_openLayerUrl('<?php echo U('create');?>','添加画面')"><span class="glyphicon glyphicon-plus"></span></button>
-             <button type="button" class="btn btn-default  btn-outline" title="删除"><span class="glyphicon glyphicon-trash"></span></button>
+             <button type="button" onclick="_delall();" class="btn btn-default  btn-outline" title="删除"><span class="glyphicon glyphicon-trash"></span></button>
             </div>
             </div>
             <div class="col-sm-4 pull-right">
@@ -86,7 +86,7 @@
         </thead>
         <tbody>
         <?php if(is_array($datalist)): $i = 0; $__LIST__ = $datalist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr >
-        		<td>数据</td>
+        		<td><input type="checkbox" name="id" value="<?php echo ($v["id"]); ?>" /></td>
         		<td><?php if(($v['pid']) != "0"): ?>***<?php endif; echo ($v['title']); ?></td>
         		<td><?php echo ($v['name']); ?></td>
         		<td><span class="<?php echo ($v['icon']); ?>"></span></td>
@@ -108,6 +108,7 @@
         	
         </tbody>
     </table>
+    <?php echo ($page); ?>
 </div>
 
 	
@@ -121,7 +122,11 @@
     <script src="/STATIC/js/content.min.js?v=1.0.0"></script>
     
     <script type="text/javascript">
+ function _delall(){
+        alert(0)
+    alert($("[name=btSelectItem]:checkbox").eq(2).attr("data-index"));
 
+    }
 
 
     </script>
