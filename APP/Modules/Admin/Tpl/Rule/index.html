@@ -24,7 +24,7 @@
         <tbody>
         <volist name="datalist" id="v">
         	<tr >
-        		<td>数据</td>
+        		<td><input type="checkbox" name="id" value="{$v.id}" /></td>
         		<td><neq name="v['pid']" value="0">***</neq>{$v['title']}</td>
         		<td>{$v['name']}</td>
         		<td><span class="{$v['icon']}"></span></td>
@@ -47,13 +47,18 @@
         	
         </tbody>
     </table>
+    {$page}
 </div>
 
 	
 </block>
 <block name="js">
     <script type="text/javascript">
+ function _delall(){
+        alert(0)
+    alert($("[name=btSelectItem]:checkbox").eq(2).attr("data-index"));
 
+    }
 
 
     </script>

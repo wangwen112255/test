@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d74c6ce0-75e3-4a5a-993f-f00f4e2fae85" name="dss" url="http://112.74.39.140">
+        <fileTransfer host="112.74.39.140" port="22" accessType="SFTP" password="df89df89df89dfdddfcbdfc4dfcddf98df9adf9bdf99df9adf93df9bdf99" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
